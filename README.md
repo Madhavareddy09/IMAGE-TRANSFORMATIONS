@@ -8,13 +8,17 @@ To perform image transformation such as Translation, Scaling, Shearing, Reflecti
 Anaconda - Python 3.7
 
 ## Algorithm:
+
 ### Step1:
+
 Import all the necessary modules
+
 ### Step2:
-<br>
+
 Choose an image and save it as filename.jpg
 ### Step3:
-<br>
+
+
 Use imread to read the image
 ### Step4:
 Use cv2.warpPerspective(image,M,(cols,rows)) to translation the image
@@ -29,11 +33,12 @@ Use cv2.warpPerspective(image,M,(int(cols),int(rows))) to rotate the image
 ### Step9:
 Crop the image to remove unwanted areas from an image
 ### Step10:
-<br>
+
 Use cv2.imshow to show the image
 ### Step11:
 <br>
 End the program
+
 ## Program:
 ```python
 Developed By : K MADHAVA REDDY
